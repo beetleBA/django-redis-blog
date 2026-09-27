@@ -9,11 +9,7 @@ authors = [
 requires-python = ">=3.13"
 dependencies = [
     "django>=6.1.1",
+    "django-environ>=0.14.0",
+    "pillow>=12.3.0",
+    "psycopg2>=2.9.13",
 ]
-
-[project.scripts]
-django-redis-blog = "django_redis_blog:main"
-
-[build-system]
-requires = ["uv_build>=0.12.19,<0.13.0"]
-build-backend = "uv_build"
